@@ -1,0 +1,26 @@
+{
+  "name": "evolution-sdk",
+  "version": "1.0.0",
+  "description": "SDK para a Evolution API de WhatsApp",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "keywords": [
+    "whatsapp",
+    "api",
+    "evolution",
+    "sdk"
+  ],
+  "author": "HigorLabs",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "form-data": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.2",
+    "jest": "^29.7.0"
+  }
+}
